@@ -9,7 +9,7 @@ def scrape_website(url):
     # Check if the request was successful (status code 200)
     if response.status_code == 200:
         # Parse the HTML content of the page
-        soup = BeautifulSoup(response.text, 'html.parser')
+        soup = BeautifulSoup(response.content, 'html.parser')
 
         # Extract information based on HTML tags and structure
         # Replace these with the actual tags and structure of the website you're scraping
