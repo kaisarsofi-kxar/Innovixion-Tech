@@ -19,7 +19,7 @@ def scrape_website(url):
         links = [a.text.strip() for a in soup.find_all('a')]
 
         # Print the title of the website
-        print(f'Title: {title}')
+        print(f' Title: {title}')
         
         # Printing ist 10 headingsof the website
         print('\nHeadings are: (1st 10)\n')
