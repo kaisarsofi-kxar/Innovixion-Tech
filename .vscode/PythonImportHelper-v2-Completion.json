@@ -1,0 +1,130 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_website",
+        "kind": 2,
+        "importPath": "Task-1.scrapper",
+        "description": "Task-1.scrapper",
+        "peekOfCode": "def scrape_website(url):\n    # Send a GET request to the URL\n    response = requests.get(url)\n    # Check if the request was successful (status code 200)\n    if response.status_code == 200:\n        # Parse the HTML content of the page\n        soup = BeautifulSoup(response.content, 'html.parser')\n        # Extract information based on HTML tags and structure\n        # Replace these with the actual tags and structure of the website you're scraping\n        title = soup.title.text.strip()",
+        "detail": "Task-1.scrapper",
+        "documentation": {}
+    },
+    {
+        "label": "AlarmClock",
+        "kind": 6,
+        "importPath": "Task-2.main",
+        "description": "Task-2.main",
+        "peekOfCode": "class AlarmClock:\n    def __init__(self, root):\n        self.root = root\n        self.root.title(\"Alarm Clock\")\n        # Variables\n        self.alarm_time_var = tk.StringVar()\n        self.alarm_time_var.set(\"\")\n        # GUI Components\n        background_image = tk.PhotoImage(file=\"download.png\")\n        background_label = tk.Label(root, image=background_image)",
+        "detail": "Task-2.main",
+        "documentation": {}
+    },
+    {
+        "label": "AlarmClock",
+        "kind": 6,
+        "importPath": "text",
+        "description": "text",
+        "peekOfCode": "class AlarmClock:\n    def __init__(self, root):\n        self.root = root\n        self.root.title(\"Alarm Clock\")\n        # Variables\n        self.alarm_time_var = tk.StringVar()\n        self.alarm_time_var.set(\"\")\n        # GUI Components\n        # Replace with the path to your background image\n        background_image = tk.PhotoImage(",
+        "detail": "text",
+        "documentation": {}
+    }
+]
